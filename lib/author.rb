@@ -21,7 +21,7 @@ end
     Post.all.select {|post| post.author == self}
 end 
 
-def add_song_by_name(name)
+def add_post_by_title(title)
   song = Song.new(name)
   song.artist = self
 end
