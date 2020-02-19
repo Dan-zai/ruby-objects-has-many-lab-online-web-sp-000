@@ -22,12 +22,12 @@ end
 end 
 
 def add_post_by_title(title)
-  song = Song.new(name)
-  song.artist = self
+  post = Post.new(title)
+  post.author = self
 end
 
-def self.song_count
-  Song.all.count 
+def self.post
+  Post.all.count 
 end 
 
 end 
