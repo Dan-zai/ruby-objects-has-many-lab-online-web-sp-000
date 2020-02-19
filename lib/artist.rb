@@ -22,7 +22,7 @@ end
 end 
 
 def add_song_by_name(song)
-  song = Song.new
+  song = Song.new(name)
   song.artist = self
 end
 
