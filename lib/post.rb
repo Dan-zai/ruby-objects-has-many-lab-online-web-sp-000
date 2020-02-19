@@ -5,7 +5,7 @@ class Post
   @@all = []
   
   def initialize(title) 
-    @name = name
+    @title = title
     @@all << self
   end 
   
@@ -13,9 +13,9 @@ class Post
     @@all
   end
   
-  def artist_name
-    if artist
-      artist.name 
+  def author_name
+    if author
+      author.name 
     end 
   end 
   
